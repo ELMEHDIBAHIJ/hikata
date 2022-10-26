@@ -1,0 +1,72 @@
+.menu_container{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 40px 150px;
+    color: white;
+}
+.menu_container .filters{
+    display: flex;  
+    justify-content: space-between; 
+    align-items: center;
+}
+.menu_container .filters .filter{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.menu_container .filters .filter .filter_drop{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_container .filters .filter .filter_drop span{
+    width: 20px;
+    height: 2px;
+    background-color: white;
+}
+.menu_items{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.menu_items .items_holder{
+
+}
+.menu_items .items_holder .product{
+    display: flex;
+    padding: 10px 0;
+
+}
+.menu_items .items_holder .product img{
+    width: 150px;
+    height: 150px;
+}
+.menu_items .items_holder .product .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.menu_items .items_holder .product .info p{
+    font-size: 24px;
+    font-weight: 800;
+}
+.menu_items .items_holder .product .info .price{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+
+}
+.menu_items .items_holder .product .info .price button{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+}

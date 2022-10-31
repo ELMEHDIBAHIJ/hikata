@@ -76,7 +76,7 @@ body {
     flex-direction: column;
     color: white;
     font-size: 20px;
-    font-family: ittalian;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 5%;
 }
 .title p {
@@ -186,7 +186,7 @@ body {
 
 footer {
     background-color: red;
-    margin-top: 100px;
+    margin-top: 150px;
 
 }
 

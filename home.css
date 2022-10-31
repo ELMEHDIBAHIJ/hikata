@@ -13,6 +13,13 @@ body {
     overflow-x: hidden;
 
 }
+#menu-icon{
+	color: white;
+	font-size: 35px;
+	z-index: 10001;
+	cursor: pointer;
+	display: none;
+}
 
 .nav {
     background: black;
@@ -63,8 +70,8 @@ body {
     position: relative;
 }
 
-.title {
-    width: 80%;
+.title6 {
+    width: 60%;
     height: 40%;
     justify-content: center;
     margin-inline: auto;
@@ -78,6 +85,22 @@ body {
     color: white;
     font-size: 50px;
     font-family: ittalian;
+}
+.title {
+    width: 60%;
+    height: 50%;
+    justify-content: center;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 5%;
 }
 
 .title h1{
@@ -223,6 +246,16 @@ footer {
     width: 35px;
     height: 35px;
 }
+@media (max-width: 1000px){
+    #menu-icon{
+		display: block;
+	}
+    .navbar {
+        display: none;
+       
+    }
+}
+	
 
 @media (max-width: 750px) {
     .column {

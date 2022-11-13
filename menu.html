@@ -37,11 +37,11 @@
     <section class="menu_container">
         <div class="filters">
             <div class="filter">
-                <select name="" id="">
-                    <option value="" selected hidden> Filter</option>
-                    <option value="" > mim</option>
-                    <option value="" > test</option>
-                    <option value="" > Filter</option>
+                <select class="select" id="fltr" onchange="filter(value)">
+                    <option value="0"> all</option>
+                    <option value="1"> sushi</option>
+                    <option value="2"> maguro</option>
+                   
                 </select>
             </div>
             <div class="filter">
@@ -49,31 +49,31 @@
             </div>
         </div>
         <div class="menu_items">
-            <div class="items_holder">
-                <div class="product">
-                    <img src="./img/Various_sushi,_beautiful_October_night_at_midnight.jpg" alt="">
+            <div class="items_holder" id="sushi">
+                <div class="product maguro">
+                    <img src="./imgs/menu img1.jpg" alt="">
                     <div class="info">
-                        <p>Maguro</p> 
+                        <p id="m1">Maguro 1</p> 
                         <div class="price">
-                            <p>25$</p>
-                            <button onclick="" type="button">Add</button>
+                            <p id="mp1">25$</p>
+                            <button onclick="add('m1','mp1')" type="button">Add</button>
                         </div>
                     </div>
                 </div>
-                <div class="product">
-                    <img src="./img/Various_sushi,_beautiful_October_night_at_midnight.jpg" alt="">
+                <div class="product sushi">
+                    <img src="./imgs/menu img2.jpg" alt="">
                     <div class="info">
-                        <p>Maguro</p> 
+                        <p>sushi 1</p> 
                         <div class="price">
                             <p>25$</p>
                             <button>Add</button>
                         </div>
                     </div>
                 </div>
-                <div class="product">
-                    <img src="./img/Various_sushi,_beautiful_October_night_at_midnight.jpg" alt="">
+                <div class="product maguro" >
+                    <img src="./imgs/menu img3.jpg" alt="">
                     <div class="info">
-                        <p>Maguro</p> 
+                        <p>Maguro 2</p> 
                         <div class="price">
                             <p>25$</p>
                             <button>Add</button>
@@ -81,10 +81,10 @@
                     </div>
                 </div>
 
-                <div class="product">
-                    <img src="./img/Various_sushi,_beautiful_October_night_at_midnight.jpg" alt="">
+                <div class="product maguro">
+                    <img src="./imgs/menu img4.jpg" alt="">
                     <div class="info">
-                        <p>Maguro</p> 
+                        <p>Maguro 3</p> 
                         <div class="price">
                             <p>25$</p>
                             <button>Add</button>
@@ -93,11 +93,11 @@
                 </div>
 
             </div>
-            <div class="items_holder">
-                <div class="product">
-                    <img src="./img/Various_sushi,_beautiful_October_night_at_midnight.jpg" alt="">
+            <div class="items_holder" id="maguro">
+                <div class="product sushi">
+                    <img src="./imgs/menu img5.jpg" alt="">
                     <div class="info">
-                        <p>Maguro</p> 
+                        <p>sushi 2</p> 
                         <div class="price">
                             <p>25$</p>
                             <button>Add</button>
@@ -105,10 +105,10 @@
                     </div>
                 </div>                
                 
-                <div class="product">
-                    <img src="./img/Various_sushi,_beautiful_October_night_at_midnight.jpg" alt="">
+                <div class="product sushi">
+                    <img src="./imgs/menu img6.jpg" alt="">
                     <div class="info">
-                        <p>Maguro</p> 
+                        <p>sushi 3</p> 
                         <div class="price">
                             <p>25$</p>
                             <button>Add</button>
@@ -116,10 +116,10 @@
                     </div>
                 </div>                
                 
-                <div class="product">
-                    <img src="./img/Various_sushi,_beautiful_October_night_at_midnight.jpg" alt="">
+                <div class="product ahi">
+                    <img src="./imgs/menu img7.jpg" alt="">
                     <div class="info">
-                        <p>Maguro</p> 
+                        <p>AHI 1</p> 
                         <div class="price">
                             <p>25$</p>
                             <button>Add</button>
@@ -127,10 +127,10 @@
                     </div>
                 </div>
                 
-                <div class="product">
-                    <img src="./img/Various_sushi,_beautiful_October_night_at_midnight.jpg" alt="">
+                <div class="product ahi">
+                    <img src="./imgs/menu img8.jpg" alt="">
                     <div class="info">
-                        <p>Maguro</p> 
+                        <p>AHI 2</p> 
                         <div class="price">
                             <p>25$</p>
                             <button>Add</button>
@@ -181,8 +181,7 @@
         </div>
         
     </footer>
-
-
+   <script src="funct.js"> </script>
 
 </body>
 

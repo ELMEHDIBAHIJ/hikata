@@ -8,6 +8,18 @@
 
 }
 
+.hide {
+    display: flex !important;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    z-index: 10;
+    top: 70px;
+    width: 20% !important;
+    right: 0;
+    background-color: black;
+}
+
 body {
     background: black;
     overflow-x: hidden;
@@ -30,14 +42,13 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-right: 5%;
+    position: relative;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     width: 36%;
-
-
 
 }
 
@@ -271,3 +282,4 @@ footer {
     }
 
 }
+

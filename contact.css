@@ -7,7 +7,27 @@
     scroll-behavior: smooth;
 
 }
+.hide {
+    display: flex !important;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    z-index: 10;
+    top: 70px;
+    width: 20% !important;
+    right: 0;
+    background-color: black;
+}
 
+
+
+#menu-icon{
+	color: white;
+	font-size: 35px;
+	z-index: 10001;
+	cursor: pointer;
+	display: none;
+}
 body {
     background: black;
     overflow-x: hidden;
@@ -63,7 +83,7 @@ body {
     position: relative;
 }
 
-.title {
+.titleC {
     width: 60%;
     height: 40%;
     justify-content: center;
@@ -79,14 +99,14 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 5%;
 }
-.title p {
+.titleC p {
     font-size: 30px;
     font-weight: bolder;
     text-align: center;
     width: 50%;
     margin-top: 30px;
 }
-.title h1 {
+.titleC h1 {
     text-align: center;
 }
 
@@ -115,7 +135,7 @@ body {
 
 }
 
-.title2 {
+.titleC2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -129,7 +149,7 @@ body {
 
 }
 
-.title-intro {
+.titleC-intro {
     font-size: 24px;
     width: 60%;
 }
@@ -254,6 +274,15 @@ footer {
     }
 
 }
+@media (max-width: 1000px){
+    #menu-icon{
+		display: block;
+	}
+    .navbar {
+        display: none;
+       
+    }
+}
 
 .contactUs {
     display: flex;
@@ -303,4 +332,26 @@ textarea {
     padding: 10px 5px 10px 5px;
     font-weight: bolder;
     font-size: 16px;
+}
+@media (max-width: 750px) {
+    .titleC {
+        
+        font-size: 15px;
+       
+    }
+    .titleC p {
+        font-size: 20px;
+       
+    }
+    .email {
+        
+        font-size: 10px;
+    
+    }
+    label {
+        
+        width: 30%;
+        padding: 5px;
+        color: white;
+    }
 }

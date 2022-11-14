@@ -9,6 +9,21 @@
     display: flex;  
     justify-content: space-between; 
     align-items: center;
+    position :relative;
+}
+
+.show-pannel {
+    display: block !important;
+}
+
+.menu_container .filters .pannel{
+    display: none;
+    position: absolute;
+    top: 50px;
+    min-height: 100px;
+    height: fit-content;
+    width: 200px;
+    background-color: red;
 }
 .menu_container .filters .filter{
     display: flex;

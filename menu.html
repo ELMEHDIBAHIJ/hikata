@@ -8,6 +8,8 @@
     <title>Hitaka sushi</title>
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 
 <body>
@@ -45,7 +47,10 @@
                 </select>
             </div>
             <div class="filter">
-                <p>purchases</p>
+                <p class="purchase">purchases</p>
+            <div class="pannel">
+                total : <span id="total">0</span>$
+            </div>
             </div>
         </div>
         <div class="menu_items">
@@ -56,7 +61,7 @@
                         <p id="m1">Maguro 1</p> 
                         <div class="price">
                             <p id="mp1">25$</p>
-                            <button onclick="add('m1','mp1')" type="button">Add</button>
+                            <button class="add-button" onclick="add('m1','mp1')" type="button">Add</button>
                         </div>
                     </div>
                 </div>
@@ -66,7 +71,7 @@
                         <p>sushi 1</p> 
                         <div class="price">
                             <p>25$</p>
-                            <button>Add</button>
+                            <button class="add-button">Add</button>
                         </div>
                     </div>
                 </div>
@@ -76,7 +81,7 @@
                         <p>Maguro 2</p> 
                         <div class="price">
                             <p>25$</p>
-                            <button>Add</button>
+                            <button class="add-button">Add</button>
                         </div>
                     </div>
                 </div>
@@ -87,7 +92,7 @@
                         <p>Maguro 3</p> 
                         <div class="price">
                             <p>25$</p>
-                            <button>Add</button>
+                            <button class="add-button">Add</button>
                         </div>
                     </div>
                 </div>
@@ -100,7 +105,7 @@
                         <p>sushi 2</p> 
                         <div class="price">
                             <p>25$</p>
-                            <button>Add</button>
+                            <button class="add-button">Add</button>
                         </div>
                     </div>
                 </div>                
@@ -111,7 +116,7 @@
                         <p>sushi 3</p> 
                         <div class="price">
                             <p>25$</p>
-                            <button>Add</button>
+                            <button class="add-button">Add</button>
                         </div>
                     </div>
                 </div>                
@@ -122,7 +127,7 @@
                         <p>AHI 1</p> 
                         <div class="price">
                             <p>25$</p>
-                            <button>Add</button>
+                            <button class="add-button">Add</button>
                         </div>
                     </div>
                 </div>
@@ -133,7 +138,7 @@
                         <p>AHI 2</p> 
                         <div class="price">
                             <p>25$</p>
-                            <button>Add</button>
+                            <button class="add-button">Add</button>
                         </div>
                     </div>
                 </div>
